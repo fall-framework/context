@@ -1,0 +1,17 @@
+{
+  "name": "fall/context",
+  "description": "Package for anything that is handled by fall libray",
+  "require": {
+    "php": "^7.1",
+    "fall/beans": "dev-master",
+    "fall/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\context\\": "src"
+    }
+  }
+}
